@@ -8,6 +8,9 @@ REST API → React dashboard → automated Excel/PDF reports → Power BI-ready 
 > documented engineering assumptions. It is **not** real operational data from any manufacturer or
 > operator, and this project is **not** an official product of any turbine manufacturer.
 
+**Live demo:** https://wind-turbine-analytics.onrender.com · API docs: https://wind-turbine-analytics.onrender.com/docs  
+*(free hosting – the first visit after ~15 min of inactivity takes 30–60 s to wake up; uploads are disabled in the demo)*
+
 ![Overview](docs/screenshots/01_overview.jpg)
 
 ---
