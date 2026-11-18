@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+# Local config
+.env
+# Generated data and outputs (re-create with scripts/setup_windows.ps1)
+data/*.db
+data/*.db-*
+data/generated/*.csv
+data/processed/*
+data/raw/*
+reports/excel/*
+reports/pdf/*
+reports/csv/*
+powerbi/datasets/Fact_SCADA.csv
+!**/.gitkeep
+
+# Local tooling
+.claude/
+frontend/.vite/

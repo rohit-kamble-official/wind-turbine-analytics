@@ -1,0 +1,11 @@
+turbine_id,turbine_name,site_name,model,rated_power_kw,rotor_diameter_m,hub_height_m,cut_in_ms,rated_wind_ms,cut_out_ms,commissioning_date,layout_x_m,layout_y_m,data_source
+WTG01,Turbine 01,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2017-03-12,0.0,0.0,SIMULATED
+WTG02,Turbine 02,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2018-01-14,450.0,0.0,SIMULATED
+WTG03,Turbine 03,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2017-01-25,900.0,0.0,SIMULATED
+WTG04,Turbine 04,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2017-02-16,1350.0,0.0,SIMULATED
+WTG05,Turbine 05,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2017-07-12,1800.0,0.0,SIMULATED
+WTG06,Turbine 06,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2017-04-18,0.0,600.0,SIMULATED
+WTG07,Turbine 07,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2017-10-23,450.0,600.0,SIMULATED
+WTG08,Turbine 08,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2016-04-17,900.0,600.0,SIMULATED
+WTG09,Turbine 09,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2017-05-25,1350.0,600.0,SIMULATED
+WTG10,Turbine 10,Simulated Wind Farm (Demo),Generic 3.0 MW / 112 m (simulated),3000.0,112.0,94.0,3.0,13.0,25.0,2018-01-27,1800.0,600.0,SIMULATED

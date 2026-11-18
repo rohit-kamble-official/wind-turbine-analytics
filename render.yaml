@@ -1,0 +1,9 @@
+# Render Blueprint (optional - the service can also be created with the Render CLI/dashboard)
+services:
+  - type: web
+    name: wind-turbine-analytics
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true

@@ -1,0 +1,79 @@
+event_id,date_key,turbine_id,start_time,end_time,duration_hours,event_type,is_planned,fault_code,description
+SE0001,20260101,WTG07,2026-01-01 00:00:00,2026-01-01 02:30:00,2.5,Unplanned Fault,False,F-310,Converter trip
+SE0002,20260101,WTG03,2026-01-01 08:40:00,2026-01-02 11:10:00,26.5,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0003,20260106,WTG02,2026-01-06 14:40:00,2026-01-07 11:50:00,21.17,Unplanned Fault,False,F-101,Pitch system fault
+SE0004,20260110,WTG07,2026-01-10 10:30:00,2026-01-10 15:30:00,5.0,Unplanned Fault,False,F-715,Hydraulic pressure low
+SE0005,20260112,WTG08,2026-01-12 12:40:00,2026-01-13 09:30:00,20.83,External Grid Event,False,F-412,Grid disturbance (external)
+SE0006,20260120,WTG10,2026-01-20 08:00:00,2026-01-21 07:30:00,23.5,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0007,20260129,WTG01,2026-01-29 16:30:00,2026-01-29 18:30:00,2.0,Unplanned Fault,False,F-101,Pitch system fault
+SE0008,20260131,WTG08,2026-01-31 08:30:00,2026-01-31 09:10:00,0.67,Unplanned Fault,False,F-205,Generator over-temperature
+SE0009,20260131,WTG01,2026-01-31 08:50:00,2026-01-31 16:00:00,7.17,External Grid Event,False,F-412,Grid disturbance (external)
+SE0010,20260202,WTG04,2026-02-02 08:40:00,2026-02-02 10:10:00,1.5,Unplanned Fault,False,F-830,Controller communication reset
+SE0011,20260204,WTG07,2026-02-04 04:00:00,2026-02-04 06:20:00,2.33,Unplanned Fault,False,F-310,Converter trip
+SE0012,20260204,WTG08,2026-02-04 11:10:00,2026-02-04 12:30:00,1.33,Unplanned Fault,False,F-101,Pitch system fault
+SE0013,20260205,WTG01,2026-02-05 07:30:00,2026-02-05 17:00:00,9.5,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0014,20260206,WTG08,2026-02-06 00:10:00,2026-02-06 04:30:00,4.33,Unplanned Fault,False,F-715,Hydraulic pressure low
+SE0015,20260209,WTG08,2026-02-09 13:20:00,2026-02-09 20:50:00,7.5,Unplanned Fault,False,F-205,Generator over-temperature
+SE0016,20260211,WTG02,2026-02-11 01:10:00,2026-02-11 01:50:00,0.67,Unplanned Fault,False,F-101,Pitch system fault
+SE0017,20260211,WTG10,2026-02-11 10:40:00,2026-02-11 15:30:00,4.83,External Grid Event,False,F-412,Grid disturbance (external)
+SE0018,20260214,WTG09,2026-02-14 16:10:00,2026-02-14 20:40:00,4.5,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0019,20260216,WTG01,2026-02-16 02:10:00,2026-02-16 06:20:00,4.17,External Grid Event,False,F-412,Grid disturbance (external)
+SE0020,20260221,WTG04,2026-02-21 20:20:00,2026-02-22 08:40:00,12.33,External Grid Event,False,F-412,Grid disturbance (external)
+SE0021,20260223,WTG05,2026-02-23 08:10:00,2026-02-26 08:10:00,72.0,Planned Maintenance,True,PM-GBX,Scheduled gearbox inspection
+SE0022,20260226,WTG10,2026-02-26 18:20:00,2026-02-26 20:50:00,2.5,Unplanned Fault,False,F-310,Converter trip
+SE0023,20260227,WTG04,2026-02-27 01:40:00,2026-02-27 03:10:00,1.5,Unplanned Fault,False,F-310,Converter trip
+SE0024,20260228,WTG07,2026-02-28 07:10:00,2026-03-01 04:40:00,21.5,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0025,20260228,WTG04,2026-02-28 16:00:00,2026-02-28 16:40:00,0.67,Unplanned Fault,False,F-520,Yaw system fault
+SE0026,20260228,WTG08,2026-02-28 19:20:00,2026-03-01 01:30:00,6.17,Unplanned Fault,False,F-715,Hydraulic pressure low
+SE0027,20260302,WTG10,2026-03-02 11:20:00,2026-03-02 19:10:00,7.83,Unplanned Fault,False,F-520,Yaw system fault
+SE0028,20260303,WTG05,2026-03-03 13:10:00,2026-03-04 10:20:00,21.17,Unplanned Fault,False,F-101,Pitch system fault
+SE0029,20260308,WTG04,2026-03-08 08:40:00,2026-03-08 22:00:00,13.33,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0030,20260308,WTG08,2026-03-08 18:20:00,2026-03-09 00:50:00,6.5,Unplanned Fault,False,F-101,Pitch system fault
+SE0031,20260309,WTG01,2026-03-09 09:50:00,2026-03-09 16:10:00,6.33,Unplanned Fault,False,F-715,Hydraulic pressure low
+SE0032,20260311,WTG05,2026-03-11 22:30:00,2026-03-12 03:10:00,4.67,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0033,20260316,WTG10,2026-03-16 00:20:00,2026-03-16 02:20:00,2.0,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0034,20260322,WTG06,2026-03-22 07:50:00,2026-03-22 15:50:00,8.0,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0035,20260325,WTG07,2026-03-25 11:10:00,2026-03-25 17:30:00,6.33,Unplanned Fault,False,F-830,Controller communication reset
+SE0036,20260328,WTG08,2026-03-28 11:00:00,2026-03-28 15:00:00,4.0,Unplanned Fault,False,F-310,Converter trip
+SE0037,20260402,WTG06,2026-04-02 13:30:00,2026-04-02 16:40:00,3.17,Unplanned Fault,False,F-101,Pitch system fault
+SE0038,20260407,WTG09,2026-04-07 04:20:00,2026-04-07 10:40:00,6.33,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0039,20260410,WTG01,2026-04-10 08:30:00,2026-04-11 04:50:00,20.33,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0040,20260415,WTG08,2026-04-15 07:20:00,2026-04-16 11:50:00,28.5,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0041,20260417,WTG10,2026-04-17 08:10:00,2026-04-18 02:20:00,18.17,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0042,20260418,WTG05,2026-04-18 03:40:00,2026-04-18 05:20:00,1.67,Unplanned Fault,False,F-101,Pitch system fault
+SE0043,20260418,WTG10,2026-04-18 08:10:00,2026-04-18 19:20:00,11.17,Unplanned Fault,False,F-715,Hydraulic pressure low
+SE0044,20260420,WTG02,2026-04-20 05:50:00,2026-04-20 10:30:00,4.67,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0045,20260421,WTG08,2026-04-21 09:10:00,2026-04-21 12:20:00,3.17,Unplanned Fault,False,F-520,Yaw system fault
+SE0046,20260423,WTG06,2026-04-23 22:20:00,2026-04-24 00:00:00,1.67,Unplanned Fault,False,F-310,Converter trip
+SE0047,20260426,WTG04,2026-04-26 08:40:00,2026-04-27 08:40:00,24.0,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0048,20260428,WTG06,2026-04-28 11:40:00,2026-04-28 12:30:00,0.83,Unplanned Fault,False,F-310,Converter trip
+SE0049,20260429,WTG03,2026-04-29 21:10:00,2026-04-29 23:20:00,2.17,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0050,20260503,WTG10,2026-05-03 07:50:00,2026-05-03 08:30:00,0.67,Unplanned Fault,False,F-310,Converter trip
+SE0051,20260503,WTG01,2026-05-03 18:10:00,2026-05-04 06:30:00,12.33,Unplanned Fault,False,F-205,Generator over-temperature
+SE0052,20260507,WTG01,2026-05-07 15:30:00,2026-05-07 20:30:00,5.0,Unplanned Fault,False,F-205,Generator over-temperature
+SE0053,20260510,WTG05,2026-05-10 08:40:00,2026-05-11 12:10:00,27.5,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0054,20260510,WTG03,2026-05-10 20:00:00,2026-05-11 06:00:00,10.0,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0055,20260511,WTG01,2026-05-11 22:10:00,2026-05-12 23:00:00,24.83,Unplanned Fault,False,F-101,Pitch system fault
+SE0056,20260513,WTG09,2026-05-13 13:20:00,2026-05-13 18:50:00,5.5,Unplanned Fault,False,F-715,Hydraulic pressure low
+SE0057,20260513,WTG06,2026-05-13 16:30:00,2026-05-14 03:30:00,11.0,Unplanned Fault,False,F-101,Pitch system fault
+SE0058,20260515,WTG04,2026-05-15 15:40:00,2026-05-15 21:10:00,5.5,Unplanned Fault,False,F-101,Pitch system fault
+SE0059,20260516,WTG02,2026-05-16 08:50:00,2026-05-16 23:20:00,14.5,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0060,20260519,WTG04,2026-05-19 09:50:00,2026-05-19 12:10:00,2.33,Unplanned Fault,False,F-310,Converter trip
+SE0061,20260520,WTG01,2026-05-20 20:40:00,2026-05-21 00:20:00,3.67,Unplanned Fault,False,F-310,Converter trip
+SE0062,20260521,WTG08,2026-05-21 23:20:00,2026-05-22 01:20:00,2.0,Unplanned Fault,False,F-101,Pitch system fault
+SE0063,20260526,WTG09,2026-05-26 07:00:00,2026-05-27 00:30:00,17.5,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0064,20260526,WTG08,2026-05-26 07:10:00,2026-05-27 06:20:00,23.17,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0065,20260527,WTG09,2026-05-27 06:00:00,2026-05-27 08:20:00,2.33,External Grid Event,False,F-412,Grid disturbance (external)
+SE0066,20260528,WTG07,2026-05-28 01:50:00,2026-05-28 09:50:00,8.0,Unplanned Fault,False,F-601,Gearbox oil temperature high
+SE0067,20260529,WTG08,2026-05-29 09:50:00,2026-05-29 11:20:00,1.5,Unplanned Fault,False,F-520,Yaw system fault
+SE0068,20260529,WTG07,2026-05-29 18:00:00,2026-05-30 05:30:00,11.5,Unplanned Fault,False,F-205,Generator over-temperature
+SE0069,20260530,WTG06,2026-05-30 07:30:00,2026-05-30 23:50:00,16.33,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0070,20260602,WTG05,2026-06-02 09:20:00,2026-06-02 13:00:00,3.67,External Grid Event,False,F-412,Grid disturbance (external)
+SE0071,20260602,WTG10,2026-06-02 10:00:00,2026-06-02 15:10:00,5.17,Unplanned Fault,False,F-310,Converter trip
+SE0072,20260608,WTG07,2026-06-08 08:30:00,2026-06-09 07:00:00,22.5,Planned Maintenance,True,PM-ANN,Scheduled annual service
+SE0073,20260612,WTG09,2026-06-12 07:20:00,2026-06-12 21:20:00,14.0,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0074,20260614,WTG05,2026-06-14 07:50:00,2026-06-14 21:30:00,13.67,Unplanned Fault,False,F-101,Pitch system fault
+SE0075,20260616,WTG05,2026-06-16 07:00:00,2026-06-16 15:00:00,8.0,Unplanned Fault,False,F-205,Generator over-temperature
+SE0076,20260616,WTG02,2026-06-16 07:20:00,2026-06-17 11:10:00,27.83,Planned Maintenance,True,PM-BLD,Scheduled blade inspection
+SE0077,20260620,WTG02,2026-06-20 16:30:00,2026-06-20 18:30:00,2.0,External Grid Event,False,F-412,Grid disturbance (external)
+SE0078,20260630,WTG08,2026-06-30 20:00:00,2026-06-30 21:30:00,1.5,Unplanned Fault,False,F-101,Pitch system fault

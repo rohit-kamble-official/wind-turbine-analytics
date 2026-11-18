@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #071a33;
+  --color-navy-900: #0b2545;
+  --color-navy-700: #1d3a63;
+  --color-navy-500: #475a78;
+  --color-brand-50: #ecfdf5;
+  --color-brand-100: #d1fae5;
+  --color-brand-500: #0e9f6e;
+  --color-brand-600: #057a55;
+  --color-brand-700: #046c4e;
+  --font-sans: "Inter", ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+}
+
+html, body, #root { height: 100%; }
+body { background: #f4f6f9; color: var(--color-navy-900); font-feature-settings: "tnum" 1; }
+.recharts-cartesian-axis-tick-value { font-size: 11px; fill: #64748b; }
+.recharts-legend-item-text { color: #334155 !important; font-size: 12px; }

@@ -1,0 +1,17 @@
+# Backend runtime
+fastapi==0.164.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.3
+sqlalchemy==2.1.9
+pandas==3.1.1
+numpy==2.5.5
+scipy>=1.14
+# 1.7.2 pinned: newer wheels' DLLs were blocked by Windows Smart App Control on the dev machine
+scikit-learn==1.7.2
+openpyxl==3.1.5
+reportlab==5.1.0
+matplotlib==3.11.2
+python-multipart==0.0.34
+# Testing
+pytest==9.2.0
+httpx==0.28.1

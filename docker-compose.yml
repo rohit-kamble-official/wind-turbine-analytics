@@ -1,0 +1,8 @@
+# docker compose up --build   ->  http://localhost:8000 (dashboard) and /docs (API)
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - WTA_DEMO_MODE=0   # allow uploads locally
